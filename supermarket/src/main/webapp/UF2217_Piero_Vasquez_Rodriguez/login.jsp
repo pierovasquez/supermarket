@@ -16,10 +16,10 @@
       <a class="navbar-brand" href="#">Piero's supermarket</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="index.html">Inicio</a></li>
-      <li class="active"><a href="login.html">Login</a></li>
-      <li><a href="formulario.html">Formulario</a></li>
-      <li><a href="listado_productos.html">Productos</a></li>
+      <li><a href="index.jsp">Inicio</a></li>
+      <li class="active"><a href="login.jsp">Login</a></li>
+      <li><a href="formulario.jsp">Formulario</a></li>
+      <li><a href="listado_productos.jsp">Productos</a></li>
     </ul>
   </div>
 </nav>

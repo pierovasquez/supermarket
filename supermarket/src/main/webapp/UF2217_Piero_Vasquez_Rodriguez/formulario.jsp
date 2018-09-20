@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Formulario</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
 
   <script src="js/jquery-1.12.4.min.js"></script>
@@ -16,10 +17,10 @@
       <a class="navbar-brand" href="#">Piero's supermarket</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="login.html">Login</a></li>
-      <li class="active"><a href="formulario.html">Formulario</a></li>
-      <li><a href="listado_productos.html">Productos</a></li>
+      <li><a href="index.jsp">Inicio</a></li>
+      <li><a href="login.jsp">Login</a></li>
+      <li class="active"><a href="formulario.jsp">Formulario</a></li>
+      <li><a href="listado_productos.jsp">Productos</a></li>
     </ul>
   </div>
 </nav>
@@ -30,10 +31,10 @@
       </header>
     </div>
     <div class="row">
-      <form action="">
+      <form action="registroProducto" method="post">
           <legend>Registrar nuevo producto</legend>
           <div class="form-group">
-          <label for="producto">Nombre del producto</label>
+          <label for="nombreproducto">Nombre del producto</label>
           <input type="text" class="form-control" id="producto" placeholder="botella de kas, sandia, melon, manzana, etc...">
         </div>
         <div class="form-group">

@@ -21,9 +21,9 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Inicio</a></li>
-				<li><a href="login.html">Login</a></li>
-				<li><a href="formulario.html">Formulario</a></li>
-				<li><a href="listado_productos.html">Productos</a></li>
+				<li><a href="login.jsp">Login</a></li>
+				<li><a href="formulario.jsp">Formulario</a></li>
+				<li><a href="listado_productos.jsp">Productos</a></li>
 			</ul>
 		</div>
 	</nav>
