@@ -31,7 +31,7 @@
       </header>
     </div>
     <div class="row">
-      <form action="registroProducto" method="post">
+      <form action="registroProductoServlet" method="post">
           <legend>Registrar nuevo producto</legend>
           <div class="form-group">
           <label for="nombreproducto">Nombre del producto</label>
